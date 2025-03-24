@@ -32,8 +32,6 @@ Containerization: Docker (optional)
 
 ⚙️ Installation and Setup Clone the Repository
 
-bash Copy Edit git clone https://github.com/shraddhabsuresh/document_management_rag_qna.git cd document_management_rag_qna Create a Virtual Environment (Recommended)
-
 bash Copy Edit python -m venv env source env/bin/activate # On macOS/Linux env\Scripts\activate # On Windows Install Dependencies
 
 bash Copy Edit pip install -r requirements.txt Set Environment Variables Create a .env file in the root directory:
