@@ -1,11 +1,11 @@
-[12:26 PM, 3/23/2025] Shraddha Suresh: import os
+[12:26 PM, 3/23/2025] Kirthana Srinivas : import os
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 from sqlalchemy import Column, Integer, Text
 from pgvector.sqlalchemy import Vector
 
 # ✅ Load database URL from environment variable (or use default)
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+asyncpg://postgres:Shraddha2014@localhost:5433/document_db")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+asyncpg://postgres:Kirthana2014@localhost:5433/document_db")
 
 # ✅ Create asynchronous database engine
 engine = create_async_engine(DATABASE_URL, echo=True)
@@ -40,7 +40,7 @@ app.include_router(api.router)
 @app.get("/")
 def root():
     return {"message": "Welcome to the Document Management API"} -----app>main.py code
-[12:28 PM, 3/23/2025] Shraddha Suresh: from logging.config import fileConfig
+[12:28 PM, 3/23/2025] Kirthana Srinivas: from logging.config import fileConfig
 
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
