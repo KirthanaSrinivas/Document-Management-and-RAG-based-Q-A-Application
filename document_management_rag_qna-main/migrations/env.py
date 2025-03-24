@@ -29,7 +29,7 @@ class Document(Base):
 async def get_db():
     async with async_session() as session:
         yield session    ----app>database.py code
-[12:27 PM, 3/23/2025] Shraddha Suresh: from fastapi import FastAPI
+[12:27 PM, 3/23/2025] Kirthana Srinivas: from fastapi import FastAPI
 from app.routes import api
 
 app = FastAPI()
